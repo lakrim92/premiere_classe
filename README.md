@@ -1,35 +1,35 @@
-PREMIERE CLASSE
+# PREMIERE CLASSE
 
 Ce projet vise à démontrer l'utilisation des classes en Python pour modéliser un joueur avec des attributs tels que le nom, les points de vie et les points.
-Instructions
 
-    Création du projet sur GitLab :
-        Créez un nouveau projet sur GitLab intitulé "PREMIERE CLASSE".
+## Instructions
 
-    Clonage du projet en local :
-        Clonez le projet GitLab localement en utilisant la commande git clone <URL_du_projet_GitLab>.
+1. **Création du projet sur GitLab :**
+   - Créez un nouveau projet sur GitLab intitulé "PREMIERE CLASSE".
 
-    Environnement virtuel :
-        Créez un environnement virtuel Python dans le dossier du projet pour isoler les dépendances. Vous pouvez utiliser python -m venv venv pour cela.
+2. **Clonage du projet en local :**
+   - Clonez le projet GitLab localement en utilisant la commande `git clone https://github.com/lakrim92/premiere_classe`.
 
-    Classe Joueur :
-        Implémentez une classe Joueur avec un constructeur prenant trois attributs : nom (str), vie (int) et points (int).
+3. **Environnement virtuel :**
+   - Créez un environnement virtuel Python dans le dossier du projet pour isoler les dépendances. Vous pouvez utiliser `python -m venv venv` pour cela.
 
-    Getters et Setters :
-        Ajoutez des méthodes getters et setters pour chaque attribut de la classe Joueur afin de contrôler l'accès et la modification des attributs.
+4. **Classe Joueur :**
+   - Implémentez une classe `Joueur` avec un constructeur prenant trois attributs : nom (str), vie (int) et points (int).
 
-    Méthodes supplémentaires :
-        Ajoutez des méthodes pour ajouter des points au joueur, pour le tuer et pour le ressusciter.
+5. **Getters et Setters :**
+   - Ajoutez des méthodes getters et setters pour chaque attribut de la classe `Joueur` afin de contrôler l'accès et la modification des attributs.
 
-    Description du personnage :
-        Créez une fonction pour décrire en une phrase les attributs du joueur, notamment son nom, ses points de vie et ses points.
+6. **Méthodes supplémentaires :**
+   - Ajoutez des méthodes pour ajouter des points au joueur, pour le tuer et pour le ressusciter.
 
-Exemple d'utilisation
+7. **Description du personnage :**
+   - Créez une fonction pour décrire en une phrase les attributs du joueur, notamment son nom, ses points de vie et ses points.
 
-Voici un exemple d'utilisation de la classe Joueur :
+## Exemple d'utilisation
 
-python
+Voici un exemple d'utilisation de la classe `Joueur` :
 
+```python
 joueur1 = Joueur("Alice", 100, 0)
 
 joueur1.ajouter_points(20)
